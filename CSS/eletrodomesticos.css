@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to top left, #f9015f, #fadc00);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+main{
+    background-color: aliceblue;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+nav{
+    display: flex;
+    background-color: #231f20;
+}
+
+nav .logo{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.home{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.Comprimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.Comprimento h1 {
+    font-size: 50px;
+    margin-left: 100px;
+    opacity: 0; 
+    transform: translateX(-100%); 
+    animation: slideIn 2s ease forwards; 
+}
+
+
+.Comprimento .personagem_home {
+    width: 40%;
+    opacity: 0; 
+    animation: fadeIn 3s ease forwards 1s; 
+}
+
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0); 
+        opacity: 1; 
+
+    }
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; 
+    }
+}
+
+h2{
+    margin-left: 100px;
+}
+
+ul{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.home_eletrodomestico{
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.categorias_img{
+    width: 100px;
+    
+}
+
+.categorias_img1{
+    width: 100px;
+    opacity: 0.7;
+}
+
+.categorias_img2{
+    width: 170px;
+    height: 120px;
+}
+
+.categorias_img3{
+    width: 140px;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to top left, #969696, #ffffff);
+    transition: 0.5s ease; 
+    border: black 1px solid;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+a:hover {
+    background: linear-gradient(to top left, #f9015f, #fadc00); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.listas_compra_aleatoria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    justify-content: center;
+    border: #231f20 solid;
+    background: #ffffff;
+    padding: 10px;
+    margin-right: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.produto{
+    padding: 10px;
+    border: #231f20 solid;
+    border-radius: 10px;
+    width: 340px;
+    
+}
+
+.produtos_aleatorio{
+    max-width: 300px;
+    height: 290px;
+    
+    
+}
+
+.informacao_produtos_aleatorio{
+    text-align: center;
+    border-top: #231f20 solid;
+    padding-bottom: 10px;
+}
+
+footer{
+    background: #231f20;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px;
+}
+

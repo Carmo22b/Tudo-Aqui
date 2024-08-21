@@ -1,0 +1,767 @@
+/* TAMANHOS DE SITES PARA APARELHOS */
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to top left, #f9015f, #fadc00);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+main{
+    background-color: aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav{
+    display: flex;
+    background-color: #231f20;
+}
+
+nav .logo{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.Comprimento{
+    display: flex;
+    flex-direction: row;
+}
+
+.Comprimento h1{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.Comprimento .personagem_home{
+    width: 50%;
+}
+
+h2{
+    margin-left: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.categorias_img{
+    width: 100px;
+}
+
+.categorias_img1{
+    width: 100px;
+}
+
+.categorias_img2{
+    width: 170px;
+    height: 120px;
+}
+
+.categorias_img3{
+    width: 140px;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to top left, #969696, #ffffff);
+    transition: 0.5s; 
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 13px;
+    
+}
+
+a:hover {
+    background: linear-gradient(to top left, #f9015f, #fadc00); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.listas_compra_aleatoria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    border: #231f20 solid;
+    background: #ffffff;
+    padding: 10px;
+    margin-right: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.produto{
+    padding: 1px;
+    border: #231f20 solid;
+    border-radius: 8px;
+    width: 240px;
+
+    
+}
+
+.produtos_aleatorio{
+    max-width: 200px;
+    max-height: 190px;
+    
+    
+}
+
+.informacao_produtos_aleatorio {
+    text-align: center;
+    border-top: #231f20 solid;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+footer{
+    background: #231f20;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px;
+}
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 820px) and (max-width: 1180px) {    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to top left, #f9015f, #fadc00);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+main{
+    background-color: aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav{
+    display: flex;
+    background-color: #231f20;
+}
+
+nav .logo{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.Comprimento{
+    display: flex;
+    flex-direction: row;
+}
+
+.Comprimento h1{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+.Comprimento .personagem_home{
+    width: 50%;
+}
+
+h2{
+    margin-left: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.categorias_img{
+    width: 100px;
+}
+
+.categorias_img1{
+    width: 100px;
+}
+
+.categorias_img2{
+    width: 170px;
+    height: 120px;
+}
+
+.categorias_img3{
+    width: 140px;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to top left, #969696, #ffffff);
+    transition: 0.5s; 
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 13px;
+    
+}
+
+a:hover {
+    background: linear-gradient(to top left, #f9015f, #fadc00); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.listas_compra_aleatoria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    border: #231f20 solid;
+    background: #ffffff;
+    padding: 10px;
+    margin-right: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.produto{
+    padding: 1px;
+    border: #231f20 solid;
+    border-radius: 8px;
+    width: 240px;
+    
+    
+}
+
+.produtos_aleatorio{
+    max-width: 200px;
+    max-height: 190px;
+    
+    
+}
+
+.informacao_produtos_aleatorio {
+    text-align: center;
+    border-top: #231f20 solid;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+footer{
+    background: #231f20;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px;
+}}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 975px) and (max-width: 1559px) {    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to top left, #f9015f, #fadc00);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+main{
+    background-color: aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav{
+    display: flex;
+    background-color: #231f20;
+}
+
+nav .logo{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.Comprimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.Comprimento h1 {
+    font-size: 50px;
+    margin-left: 100px;
+    opacity: 0; 
+    transform: translateX(-100%); 
+    animation: slideIn 2s ease forwards; 
+}
+
+
+.Comprimento .personagem_home {
+    width: 40%;
+    opacity: 0; 
+    animation: fadeIn 3s ease forwards 1s; 
+}
+
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0); 
+        opacity: 1; 
+
+    }
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; 
+    }
+}
+
+h2{
+    margin-left: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.categorias_img{
+    width: 100px;
+}
+
+.categorias_img1{
+    width: 100px;
+}
+
+.categorias_img2{
+    width: 170px;
+    height: 120px;
+}
+
+.categorias_img3{
+    width: 140px;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to top left, #969696, #ffffff);
+    transition: 0.5s; 
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 18px;
+    
+}
+
+a:hover {
+    background: linear-gradient(to top left, #f9015f, #fadc00); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.listas_compra_aleatoria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    border: #231f20 solid;
+    background: #ffffff;
+    padding: 10px;
+    margin-right: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.produto{
+    padding: 1px;
+    border: #231f20 solid;
+    border-radius: 8px;
+    width: 240px;
+
+    
+}
+
+.produtos_aleatorio{
+    max-width: 200px;
+    max-height: 190px;
+    
+    
+}
+
+.informacao_produtos_aleatorio {
+    text-align: center;
+    border-top: #231f20 solid;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+footer{
+    background: #231f20;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px;
+}}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 601px) and (max-width: 819px) {    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to top left, #f9015f, #fadc00);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+main{
+    background-color: aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav{
+    display: flex;
+    background-color: #231f20;
+}
+
+nav .logo{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.Comprimento{
+    display: flex;
+    flex-direction: row;
+}
+
+.Comprimento h1{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+.Comprimento .personagem_home{
+    width: 50%;
+}
+
+h2{
+    margin-left: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.categorias_img{
+    width: 100px;
+}
+
+.categorias_img1{
+    width: 100px;
+}
+
+.categorias_img2{
+    width: 170px;
+    height: 120px;
+}
+
+.categorias_img3{
+    width: 140px;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to top left, #969696, #ffffff);
+    transition: 0.5s; 
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 13px;
+    
+}
+
+a:hover {
+    background: linear-gradient(to top left, #f9015f, #fadc00); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.listas_compra_aleatoria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    border: #231f20 solid;
+    background: #ffffff;
+    padding: 10px;
+    margin-right: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.produto{
+    padding: 1px;
+    border: #231f20 solid;
+    border-radius: 8px;
+    
+
+    
+}
+
+.produtos_aleatorio{
+    max-width: 200px;
+    max-height: 190px;
+    
+    
+}
+
+.informacao_produtos_aleatorio {
+    text-align: center;
+    border-top: #231f20 solid;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+footer{
+    background: #231f20;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px;
+}}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 975px) and (max-width: 1180px) {    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to top left, #f9015f, #fadc00);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+main{
+    background-color: aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav{
+    display: flex;
+    background-color: #231f20;
+}
+
+nav .logo{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.Comprimento{
+    display: flex;
+    flex-direction: row;
+}
+
+.Comprimento h1{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+.Comprimento .personagem_home{
+    width: 50%;
+}
+
+h2{
+    margin-left: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.categorias_img{
+    width: 100px;
+}
+
+.categorias_img1{
+    width: 100px;
+}
+
+.categorias_img2{
+    width: 170px;
+    height: 120px;
+}
+
+.categorias_img3{
+    width: 140px;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to top left, #969696, #ffffff);
+    transition: 0.5s; 
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 20px;
+    
+}
+
+a:hover {
+    background: linear-gradient(to top left, #f9015f, #fadc00); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.listas_compra_aleatoria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    border: #231f20 solid;
+    background: #ffffff;
+    padding: 10px;
+    margin-right: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.produto{
+    padding: 1px;
+    border: #231f20 solid;
+    border-radius: 8px;
+    
+
+    
+}
+
+.produtos_aleatorio{
+    max-width: 200px;
+    max-height: 190px;
+    
+    
+}
+
+.informacao_produtos_aleatorio {
+    text-align: center;
+    border-top: #231f20 solid;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+footer{
+    background: #231f20;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px;
+}
+
+}
